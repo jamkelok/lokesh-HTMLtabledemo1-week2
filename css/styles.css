@@ -1,0 +1,27 @@
+html {
+display: inline;
+}
+
+
+table {
+    border-collapse: collapse
+}
+
+td, th {
+    border: 1px solid blue; 
+    padding: .5rem;
+    text-align: center
+} 
+
+th {
+    background-color: azure
+}
+
+.table-with-bars tbody tr:nth-child(even) {
+    background-color:lightgrey;
+}
+
+tbody tr:hover {
+    background-color:yellow !important;
+    font-weight:bold;
+}
